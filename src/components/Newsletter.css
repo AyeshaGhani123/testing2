@@ -1,0 +1,72 @@
+.newsletter-section {
+  background: #2f78eb; 
+  padding: 40px 60px;
+  color: white;
+}
+
+.newsletter-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: wrap; 
+}
+
+.newsletter-text {
+  flex: 1;
+  min-width: 280px;
+}
+
+.newsletter-text h2 {
+  font-size: clamp(20px, 2vw, 28px);
+  margin-bottom: 10px;
+}
+
+.newsletter-text p {
+  font-size: clamp(14px, 1.5vw, 18px);
+  line-height: 1.5;
+}
+
+.newsletter-form {
+  flex: 1;
+  min-width: 280px;
+}
+
+.newsletter-form label {
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.input-wrapper {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 450px;
+}
+
+.input-wrapper input {
+  flex: 1;
+  padding: 12px;
+  border: none;
+  outline: none;
+  border-radius: 4px 0 0 4px;
+  font-size: 14px;
+}
+
+.input-wrapper button {
+  padding: 12px 20px;
+  background: #222;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 0 4px 4px 0;
+  transition: background 0.3s ease;
+}
+
+.input-wrapper button:hover {
+  background: #444;
+}
