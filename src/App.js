@@ -8,13 +8,15 @@ import TeacherHighlight from "./components/TeacherHighlight";
 import Newsletter from "./components/Newsletter";
 import Blog from "./components/Blog";
 import Footer from "./components/Footer";
+// import BlogAndFooter from "./components/BlogAndFooter";
+// import Footer from "./components/Footer";
 import "./App.css";
 
 function App() {
   return (
- <div className="App">
-      <Topbar />
-       {/* <Navbar /> */}
+    <div className="page">
+      <main className="content">
+           <Topbar />
       <Hero />
       <Categories />
         <Courses/>
@@ -22,10 +24,17 @@ function App() {
         <TeacherHighlight/>
         <Newsletter/>
         <Blog/>
-        <Footer/>
-    </div>
+      </main>
 
+      {/* Push space equal to footer height */}
+      <div className="footer-spacer"></div>
+
+      <footer className="footer">
+       <Footer/>
+      </footer>
+    </div>
   );
 }
 
 export default App;
+
