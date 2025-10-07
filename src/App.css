@@ -3,3 +3,19 @@
   box-sizing: border-box;
 }
 
+.footer-spacer {
+  height: 350px;   /* same as footer height */
+  flex-shrink: 0;
+}
+
+/* Footer revealed via scroll */
+.footer {
+  height: 350px;
+  background: #222;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;   /* stays behind content */
+}
