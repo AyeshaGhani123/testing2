@@ -140,6 +140,7 @@ const courses = [
 
 export default function Courses() {
   return (
+    <div className="container">
     <section className="courses-section">
       <h2 className="section-title">TOP COURSES</h2>
       <div className="courses-grid">
@@ -184,5 +185,6 @@ export default function Courses() {
         ))}
       </div>
     </section>
+    </div>
   );
 }
