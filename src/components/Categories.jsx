@@ -12,6 +12,7 @@ const categories = [
 
 export default function Categories() {
   return (
+    <div className="container">
     <div className="categories">
       {categories.map((cat, index) => (
         <div
@@ -23,6 +24,7 @@ export default function Categories() {
           <h4>{cat.title}</h4>
         </div>
       ))}
+    </div>
     </div>
   );
 }
