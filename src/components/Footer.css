@@ -97,4 +97,7 @@
   .course-item {
     justify-content: center;
   }
+  .hide{
+    display: none;
+  }
 }
