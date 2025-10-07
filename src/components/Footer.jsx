@@ -26,7 +26,7 @@ export default function Footer() {
         </div>
 
         {/* Popular Courses */}
-        <div className="footer-column">
+        <div className="footer-column hide">
           <h3>POPULAR COURSES</h3>
           <div className="course-item">
             <img src={randomImage(1)} alt="Course 1" />
@@ -52,7 +52,7 @@ export default function Footer() {
         </div>
 
         {/* Pages */}
-        <div className="footer-column">
+        <div className="footer-column hide">
           <h3>PAGES</h3>
           <ul>
             <li>&rsaquo; BLOG</li>
@@ -65,7 +65,7 @@ export default function Footer() {
         </div>
 
         {/* Contact */}
-        <div className="footer-column">
+        <div className="footer-column hide">
           <h3>CONTACT</h3>
           <p><FaMapMarkerAlt /> USA, California 20, First Avenue, California</p>
           <p><FaPhoneAlt /> Tel: +1 212 458 300 32</p>
