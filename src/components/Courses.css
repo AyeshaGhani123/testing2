@@ -1,4 +1,8 @@
 /* Section */
+.container{
+  width:100%;
+  background-color: #fff;
+}
 .courses-section {
   padding: 40px 60px;
   max-width: 1200px;
